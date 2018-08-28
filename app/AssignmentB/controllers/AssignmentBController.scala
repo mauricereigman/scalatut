@@ -16,7 +16,7 @@ import play.api.mvc.{AbstractController, ControllerComponents}
   * return this in the def movies method so you get a JSON array of actors
   * check localhost:9000/assignmentB for the result
   *
-  * B.3 lets take this a step further sinds we have only been using the movies as a functor up until now.
+  * B.3 lets take this a step further sinds we have only been using the movies as a functor up until now lets use the big monad feature "flatMap".
   * exampleMovies2 is a 2 dimensional collection (e.g a collection of collections) use the same method you created above
   * but now do it on the exampleMovies2
   *
