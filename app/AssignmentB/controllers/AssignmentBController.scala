@@ -1,6 +1,6 @@
 package AssignmentB.controllers
 
-import AssignmentA.models.Movie
+import AssignmentB.models.Movie
 import javax.inject.Inject
 import play.api.libs.json.Json
 import play.api.mvc.{AbstractController, ControllerComponents}

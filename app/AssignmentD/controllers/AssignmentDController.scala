@@ -12,7 +12,8 @@ import scala.concurrent.Future
   * D.1 instead of using data created by ourselves you can see that we are now getting our movie data from an external (OMDB) rest service
   * what we get from this service is a Future of movies. a future is a monad just like the sequence we have been using so far so this should be easy.
   * Also a future is very much comparable to a promise in javascript this should also help
-  * use exampleMovies1Future instead of exampleMovies1
+  * create a val exampleMovies1Future instead of exampleMovies1 and fill it with the OmdbMovieService.movies method
+  * now return the future to the browser
   * **/
 
 class AssignmentDController @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
